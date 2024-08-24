@@ -8,9 +8,9 @@ package ejercicio2;
 public abstract class Producto {
 	
 	// Atributos
-	String nombre;
-	String fechaCaducidad;
-	int nroLote;
+	private String nombre;
+	private String fechaCaducidad;
+	private int nroLote;
 
 	// Constructores
 	
