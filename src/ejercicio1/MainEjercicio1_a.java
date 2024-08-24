@@ -22,7 +22,7 @@ public class MainEjercicio1_a {
 			
 			Profesor profesor = iterarProfesores.next();
 			System.out.println(profesor.toString());
-			
+		
 		}
 		
 	}
