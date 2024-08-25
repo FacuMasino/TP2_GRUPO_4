@@ -8,7 +8,7 @@ public class MainEjercicio1_a {
 
 	public static void main(String[] args) {
 		
-		//Punto 4
+		//Punto 5
 		List<Profesor> listaProfesores = new ArrayList<>();
 		
 		listaProfesores.add(new Profesor("Juan", 33, "Profesor", 5));

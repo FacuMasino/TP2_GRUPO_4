@@ -25,7 +25,7 @@ public class MainEjercicio1_b {
 		
 		//Punto 7
 		//CASO: Profesor/a igual
-		System.out.println("\nPunto 7 \n");
+		System.out.println("\nPunto 7 \nCaso de Mismo profesor");
 		Profesor p1 = new Profesor("Maria de las Mercedes",35,"Profesora",10);
 		Profesor p2 = new Profesor("Maria de las Mercedes",35,"Profesora",10);
 		
@@ -37,6 +37,7 @@ public class MainEjercicio1_b {
 		
 		
 		//CASO: Profesor/a diferente
+		System.out.println("\nPunto 7 \nCaso de Profesor diferente");
 		Profesor p3 = new Profesor("Maria",35,"Profesora",10);
 		Profesor p4 = new Profesor("Maria",34,"Profesora",10);
 		

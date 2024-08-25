@@ -71,8 +71,8 @@ public class Profesor extends Empleado implements Comparable<Profesor>{
 			return true;
 		if (!super.equals(obj))
 			return false;
-		if (getClass() != obj.getClass())
-			return false;
+		//if (getClass() != obj.getClass())
+		//	return false;
 		Profesor other = (Profesor) obj;
 		if (antiguedadDocente != other.antiguedadDocente)
 			return false;
