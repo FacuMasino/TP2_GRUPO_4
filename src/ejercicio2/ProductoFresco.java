@@ -46,15 +46,12 @@ public class ProductoFresco extends Producto {
 	
 	@Override
 	public String getInfoEspecifica() {
-		// TODO Auto-generated method stub
-		return null;
+		return String.format(
+			    "Fecha de Envasado: %s \nPais de Origen: %s",
+				 fechaEnvasado, paisOrigen
+			    );
 	}
 
-	@Override
-	public String toString() {
-		
-		return super.toString() + ", Envasado= " + fechaEnvasado + ", Origen =" + paisOrigen ;
-	}
 }
 
 	
