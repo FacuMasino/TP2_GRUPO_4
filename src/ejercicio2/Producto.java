@@ -1,5 +1,7 @@
 package ejercicio2;
 
+
+
 /*
  * Todos los productos llevan esta información común: 
  * fecha de caducidad y número de lote. 
