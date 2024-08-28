@@ -43,4 +43,13 @@ public class Polideportivo extends InstalacionDeportiva implements IEdificable
 	{
 		return superficieEdificio;
 	}
+
+	@Override
+	public void mostrarAtributos() {
+		System.out.println("Polideportivo:");
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Superficie Edificio: " + getSuperficieEdificio());
+        System.out.println("Tipo de Instalación: " + getTipoDeInstalacion());
+	}
+	
 }

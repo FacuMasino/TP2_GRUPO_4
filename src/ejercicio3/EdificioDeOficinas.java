@@ -27,6 +27,14 @@ public class EdificioDeOficinas extends Edificio
 		return numeroDeOficinas;
 	}
 
+	@Override
+	public void mostrarAtributos() {
+		System.out.println("Edificio de Oficinas:");
+        System.out.println("Superficie Edificio: " + getSuperficieEdificio());
+        System.out.println("Numero de Oficinas: " + getNumeroDeOficinas());
+		
+	}
+
 	public void setNumeroDeOficinas(int numeroDeOficinas)
 	{
 		this.numeroDeOficinas = numeroDeOficinas;

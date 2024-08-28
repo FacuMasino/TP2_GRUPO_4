@@ -26,6 +26,12 @@ public class Edificio implements IEdificable
 		return superficieEdificio;
 	}
 
+	@Override
+	public void mostrarAtributos() {
+		System.out.println("Edificio:");
+        System.out.println("Superficie Edificio: " + getSuperficieEdificio());
+	}
+
 	public void setSuperficieEdificio(double superficieEdificio)
 	{
 		this.superficieEdificio = superficieEdificio;
